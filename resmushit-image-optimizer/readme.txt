@@ -5,7 +5,7 @@ Tags: image, optimizer, image optimization, smush, free image optimization
 Requires at least: 4.0.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,10 @@ Please report security bugs found in the source code of the reSmush.it Image Opt
 1. The simple interface
 
 == Changelog ==
+
+= 1.0.6 =
+Release date June 16, 2026
+* Fix: Resolved a PHP 8.5 deprecation notice that could appear in certain cases.
 
 = 1.0.5 =
 Release date May 19, 2026

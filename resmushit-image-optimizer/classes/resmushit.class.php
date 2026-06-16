@@ -228,7 +228,7 @@ Class reSmushit {
 				limit 1",
 				array('resmushed_cumulated_original_sizes')
 		);
-		return (boolean)$wpdb->get_var($query);
+		return (bool)$wpdb->get_var($query);
 	}
 	/**
       *

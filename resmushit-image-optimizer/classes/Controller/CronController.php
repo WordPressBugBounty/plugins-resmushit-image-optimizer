@@ -145,8 +145,8 @@ class CronController
    */
 
   public function on_remove_unsmushed_change($old_value, $value) {
-  	$old_value = (boolean)$old_value;
-  	$value = (boolean)$value;
+  	$old_value = (bool)$old_value;
+  	$value = (bool)$value;
   	if($old_value == $value) {
   		return TRUE;
   	} else {
